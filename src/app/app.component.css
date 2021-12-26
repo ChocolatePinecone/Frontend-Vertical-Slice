@@ -1,0 +1,53 @@
+#header {
+  height: 40vh;
+  background-image: url("src/assets/images/header.jpg");
+  background-size: cover;
+  position: relative;
+  margin-bottom: 6rem;
+}
+
+h1 {
+  font-family: 'Londrina Outline', serif;
+  font-size: 10rem;
+  color: #ffffff;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  margin: 0;
+  text-shadow: 4px 4px black;
+}
+
+#menu {
+  width: 60%;
+  border-radius: 0.5rem;
+  margin: auto;
+  background-color: whitesmoke;
+  padding-bottom: 4rem;
+  margin-bottom: 6rem;
+}
+
+#menu h2 {
+  font-family: 'Londrina Outline', serif;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-top: 2rem;
+}
+
+#menu table {
+  width: 90%;
+  margin: 0 5% 0 5%;
+}
+
+#menu table th {
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+#menu table td {
+  padding-right: 1rem;
+  padding-bottom: 0.7rem;
+}
