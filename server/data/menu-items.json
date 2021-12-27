@@ -1,0 +1,12 @@
+{
+  "1": {
+    "dish": "Fries",
+    "description": "Delicious home cooked fries topped with mayonaise with a side of onion rings",
+    "price": 3
+  },
+  "2": {
+    "dish": "Hamburger",
+    "description": "A royally stuffed Angus beef burger",
+    "price": 5
+  }
+}
