@@ -37,17 +37,7 @@ h1 {
   padding-top: 2rem;
 }
 
-#menu table {
+#menu-content {
   width: 90%;
   margin: 0 5% 0 5%;
-}
-
-#menu table th {
-  text-align: left;
-  padding-bottom: 2rem;
-}
-
-#menu table td {
-  padding-right: 1rem;
-  padding-bottom: 0.7rem;
 }
