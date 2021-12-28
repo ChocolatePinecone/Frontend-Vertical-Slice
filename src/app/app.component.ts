@@ -16,7 +16,7 @@ export class AppComponent implements OnInit {
   }
 }
 
-interface MenuItem {
+export interface MenuItem {
   dish: string,
   description: string,
   price: string,
