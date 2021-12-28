@@ -7,6 +7,7 @@
   <div id="menu-content">
     <div id="menu-items">
       <!-- Menu items are placed HERE -->
+      <app-menu-item *ngFor="let item of menuItems" [itemData]="item"></app-menu-item>
     </div>
   </div>
 </div>

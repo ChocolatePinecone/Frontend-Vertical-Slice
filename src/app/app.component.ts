@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from "@angular/common/http";
 
 @Component({
   selector: 'app-root',
@@ -9,10 +10,14 @@ export class AppComponent implements OnInit {
   title = 'Slice';
   menuItems: MenuItem[] = [];
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
     // Call to API is placed here
+    this.http.get<MenuItemsResponse>("http://localhost:3001/menu-items", {observe: "body", responseType: "json"}).subscribe((resp: MenuItemsResponse) => {
+      this.menuItems = resp.menuItems;
+      console.log(resp);
+    })
   }
 }
 
