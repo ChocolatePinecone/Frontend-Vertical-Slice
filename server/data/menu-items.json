@@ -1,14 +1,34 @@
 {
   "menuItems": [
     {
+      "dish": "Pumpkin soup",
+      "description": "Silky soft with a little spice",
+      "price": "4,-"
+    },
+    {
       "dish": "Fries",
-      "description": "Delicious home cooked fries topped with mayonaise with a side of onion rings",
+      "description": "Delicious home cooked fries topped with mayonnaise with a side of onion rings",
       "price": "3,-"
     },
     {
       "dish": "Hamburger",
       "description": "A royally stuffed Angus beef burger",
       "price": "5,-"
+    },
+    {
+      "dish": "Smoked Salmon",
+      "description": "Wonderfully smokey served with dill sauce",
+      "price": "6,-"
+    },
+    {
+      "dish": "Spareribs",
+      "description": "Sweet or hot, your choice",
+      "price": "10,-"
+    },
+    {
+      "dish": "Spaghetti bolognese",
+      "description": "Topped with parmesan",
+      "price": "6,-"
     }
   ]
 }
