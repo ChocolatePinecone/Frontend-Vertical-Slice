@@ -19,5 +19,9 @@ export class AppComponent implements OnInit {
 interface MenuItem {
   dish: string,
   description: string,
-  price: number,
+  price: string,
+}
+
+interface MenuItemsResponse {
+  menuItems: MenuItem[],
 }
