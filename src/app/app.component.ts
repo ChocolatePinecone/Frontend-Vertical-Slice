@@ -16,7 +16,6 @@ export class AppComponent implements OnInit {
     // Call to API is placed here
     this.http.get<MenuItemsResponse>("http://localhost:3001/menu-items", {observe: "body", responseType: "json"}).subscribe((resp: MenuItemsResponse) => {
       this.menuItems = resp.menuItems;
-      console.log(resp);
     })
   }
 }
